@@ -1,0 +1,11 @@
+#python  code for a given time delay is:
+name=input("enter the given name: ")
+delay=int(input("enter the time delay: "))
+while delay>0:
+    print("Hi",name)
+    from datetime import datetime
+    now = datetime.now()
+    print("Now the time is ", now)
+    import time
+    time.sleep(delay)
+#delay should be in integers only and in sec
